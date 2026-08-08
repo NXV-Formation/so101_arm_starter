@@ -1,25 +1,13 @@
-# One neuron for regression! 
+# Start your project with the SO101 arm 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NXV-Formation/one_neuron_regression/blob/main/Regression_one_neuron.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NXV-Formation/so101_arm_starter/blob/main/SO101_start_project.ipynb)
 
 
-<img width="546" height="413" alt="image" src="https://github.com/user-attachments/assets/047eb64d-aeb3-4d81-a492-cbd4b07e709c" />
+<!-- <img width="546" height="413" alt="image" src="https://github.com/user-attachments/assets/047eb64d-aeb3-4d81-a492-cbd4b07e709c" /> -->
 
-In this short notebook, you will discover how a single artificial neuron can learn a linear regression from data using PyTorch.
-
-This simple example helps build intuition about:
-- Linear regression
-- Trainable weights and bias
-- Loss minimization
-- Gradient-based optimization
-- Neural network fundamentals 
-
-## Try it yourself!
-
-Once you've run the notebook, you can extend it with a few small exercises:
-
-- [Matplotlib] Plot the learned regression line.
-- [PyTorch] Evaluate the model on testing samples.
+This repo aims at starting a new simulation project including the SO101 Arm, with 2 files:
+- A notebook that should be filled in to make an agent train, depending on your skills
+- A script to run the agent locally
 
 ## Licensing
 
