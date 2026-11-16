@@ -43,7 +43,7 @@ model.summary()
 state, info = env.reset()
 frames = []
 
-for _ in range(max_steps):
+for i in range(max_steps):
     values = model.predict(state[np.newaxis], verbose=0)
     action = np.argmax(values[0])
     state, reward, done, info = env.step(action)
@@ -51,6 +51,7 @@ for _ in range(max_steps):
         state, info = env.reset()
     img = env.render()
     frames.append(img)
+    print("Step: " + str(i) + "done", end="")
 
 save_frames_as_gif(frames, filename='animation.gif')
 env.close()
